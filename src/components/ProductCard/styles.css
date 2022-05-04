@@ -1,0 +1,51 @@
+.ProductCardDiv figure{
+    width: 300px;
+    height: 150px;
+    background-color: #F5F5F5;
+    margin: 0%;
+
+}
+.ProductCardDiv img{
+    height: 150px;
+    /* overflow: hidden; */
+    object-fit:fill; 
+}
+
+.ProductCardDiv {
+    margin: 30px 20px 0px 0px;
+    width: 300px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #E0E0E0;
+    border-radius: 5px;
+}
+.dataDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+    height: 100%;
+}
+
+.dataDiv p,h3,button{
+    margin: 0%;
+}
+
+.dataDiv .categoryP{
+    color:#828282    ;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.dataDiv .priceP{
+    color:#27AE60;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.dataDiv button{
+    font-weight: 600;
+}

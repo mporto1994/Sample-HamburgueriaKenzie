@@ -1,0 +1,119 @@
+.cartDiv{
+    width: 365px;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px 40px 0px;
+    /* overflow-x: hidden; */
+    /* padding: 20px; */
+}
+.cartHeaderDiv{
+    height: 65px;
+    width: 365px;
+    background-color: #27AE60;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cartHeaderDiv h2{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.prodDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+}
+.namesDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0%;
+}
+.namesButtonDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin: 0%;
+}
+
+.namesButtonDiv button {
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #BDBDBD;
+    background-color: #F5F5F5
+    ;
+}
+
+.prodDiv img{
+    width: 80px;
+    height: 80px;
+    margin: 0%;
+
+}
+.prodDiv figure{
+    /* width: 80px; */
+    /* height: 80px; */
+    margin: 0px 15px 0px 0px;
+    background-color: #E0E0E0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cartNameP{
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+}
+.cartCategoryP{
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282
+    ;
+}
+.removeDiv{
+    border-top: 2px solid #E0E0E0;
+    margin:20px 0px 20px 0px;
+    
+}
+
+.allCart{
+    padding: 10px;
+
+}
+
+
+.totalDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.totalDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    flex-direction: row;
+}
+.removeDiv button {
+    width: 343px;
+    height: 60px;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    border:none;
+    color:#828282;
+    font-weight: 600;
+    font-size: 16px;
+}

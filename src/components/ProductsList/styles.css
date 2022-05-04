@@ -1,0 +1,30 @@
+.listDiv{
+    margin: 50px 0px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    /* scroll-behavior:smooth; */
+    overflow: scroll;
+    width: 400px;
+}
+
+@media (min-width:1000px) {
+    .listDiv{
+        flex-wrap: wrap;
+        justify-content: center;
+        /* overflow:visible; */
+        /* overflow:auto; */
+        /* overflow:hidden; */
+        /* overflow:inherit; */
+        /* overflow:initial; */
+        /* overflow:unset; */
+        width:1200px;
+        /* max-width: 950px; */
+        height: 100%;
+        margin: 0;
+    }
+
+}
